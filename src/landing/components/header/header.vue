@@ -1,8 +1,9 @@
 <template>
-    <header>
+    <header class="h-[770px]">
         <div class="h-full bg-black/50">
-            <div class="container">
+            <div class="h-full">
                 <Nav />
+                <Intro />
             </div>
         </div>
     </header>
@@ -10,10 +11,15 @@
 
 <script>
 import Nav from './nav.vue'
+import Intro from './intro.vue'
+
 
 export default {
     name: 'header-component',
-    components: { Nav }
+    components: { 
+        Nav,
+        Intro,
+    }
 }
 </script>
 
@@ -22,6 +28,5 @@ header {
     background: url('./assets/group.jpg');
     background-size: cover;
     background-position: center;
-    height: 770px;
 }
 </style>

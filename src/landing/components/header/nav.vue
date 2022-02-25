@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex justify-between items-center py-4 text-white">
+    <div class="w-full flex justify-between items-center py-10 px-20 text-white">
 
         <div class="flex items-center">
             <div class="w-9 h-9 mr-2 rounded bg-brand-900 flex items-center justify-center">
@@ -10,21 +10,28 @@
                 </div>
                 
             </div>
-            <div>CompanyLogo</div>
+            <div class="font-bold text-lg">CompanyLogo</div>
         </div>
 
-        <div class="flex items-center text-sm">
-            <div>Home</div>
-            <div>Services</div>
-            <div>About</div>
-            <div>FAQ</div>
-            <button class="bg-brand-900 py-1 px-2 rounded">Contact</button>
+        <div class="flex items-center">
+            <div class="mx-6 cursor-pointer">Home</div>
+            <div class="mx-6 cursor-pointer">Services</div>
+            <div class="mx-6 cursor-pointer">About</div>
+            <div class="mx-6 cursor-pointer">FAQ</div>
+            <button-component class="ml-6" label="Contact"></button-component>
         </div>
     </div>
 </template>
 
 <script>
+
+import Button from '@/components/button'
+
 export default {
     name: 'nav-component',
+
+    components: { 
+        'button-component': Button,
+    }
 }
 </script>
