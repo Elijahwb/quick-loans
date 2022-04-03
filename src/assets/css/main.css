@@ -7,3 +7,10 @@
 .text-highlight {
     color: #41201E;
 }
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+textarea { 
+    font-size: 18px; 
+}

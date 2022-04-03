@@ -1,5 +1,5 @@
 <template>
-    <header class="h-[770px]">
+    <header class="h-[850px]">
         <div class="h-full bg-black/50">
             <div class="h-full">
                 <Nav />

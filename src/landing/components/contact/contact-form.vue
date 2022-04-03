@@ -18,7 +18,7 @@ export default {
                 <input type="text" placeholder="Mobile" class="mt-1 text-[25px] bg-transparent text-gray-600 px-3 py-5 border border-gray-300 placeholder-gray-500 focus:outline-none focus:border-brand-500 focus:ring-brand-500 block w-full rounded-md sm:text-sm focus:ring-1" required/>
             </div>
             <div class="w-full my-5 bg-[#EFEEEE]">
-                <textarea type="text" placeholder="Message" class="mt-1 text-[25px] bg-transparent resize-none h-[155px] text-gray-600 px-3 py-5 border border-gray-300 placeholder-gray-500 focus:outline-none focus:border-brand-500 focus:ring-brand-500 block w-full rounded-md sm:text-sm focus:ring-1" required/>
+                <textarea style="font-size: 18px" placeholder="Message" class="mt-1 text-[25px] bg-transparent resize-none h-[155px] text-gray-600 px-3 py-5 border border-gray-300 placeholder-gray-500 focus:outline-none focus:border-brand-500 focus:ring-brand-500 block w-full rounded-md sm:text-sm focus:ring-1" required/>
             </div>
 
             <div class="flex justify-center items-center mt-10">
