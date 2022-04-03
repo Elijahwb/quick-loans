@@ -9,7 +9,7 @@
                 </div>
 
                 <div class="mt-7">
-                    <button-component class="py-3.5 px-5" label="How it works"></button-component>
+                    <button-component class="py-3.5 px-5 text-lg" label="How it works"></button-component>
                 </div>
             </div>
         </div>
