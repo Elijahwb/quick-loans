@@ -7,12 +7,13 @@ import HowItWorks from './components/how-it-works/content-component.vue'
 import Questions from './components/questions/content-component.vue'
 import Contactus from './components/contact/contact-content.vue'
 import Footer from './components/footer/footer-content.vue'
+import Copyright from './components/copy-right.vue'
 
 
 export default {
     name:'header-component',
 
-    components: { Header, Services, Aboutus, ClientMessage, HowItWorks, Questions, Contactus, Footer },
+    components: { Header, Services, Aboutus, ClientMessage, HowItWorks, Questions, Contactus, Footer, Copyright },
 }
 </script>
 
@@ -34,6 +35,8 @@ export default {
         <Contactus />
 
         <Footer />
+
+        <Copyright />
         
     </main>
 </template>
