@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <div class="p-5 mt-[17rem] mb-20">
+    <div class="lg:p-2.5 2xl:p-5 lg:mt-[13rem] 2xl:mt-[17rem] mb-20">
         <div class="container grid grid-cols-2">
             <ImageSection />
             <InfoSection />

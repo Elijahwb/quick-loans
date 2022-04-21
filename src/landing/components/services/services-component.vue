@@ -10,7 +10,7 @@ export default {
         <div class="absolute w-full top-[-3rem]">
             <div class="container grid grid-cols-5 gap-20">
                 <ServiceCard>
-                    <div class="bg-white border p-2 rounded-lg mb-3 h-[7rem] w-[7rem] grid items-center justify-center">
+                    <div class="bg-white border lg:p-1 2xl:p-2 rounded-lg lg:mb-2 2xl:mb-3 lg:h-[6rem] 2xl:h-[7rem] lg:w-[6.5rem] 2xl:w-[7.5rem] grid items-center justify-center">
                         <img src="./assets/moneybag.png" alt="">
                     </div>
                     <div>Salary Loan</div>
@@ -18,7 +18,7 @@ export default {
 
             
                 <ServiceCard>
-                    <div class="bg-white border p-2 rounded-lg mb-3 h-[7rem] w-[7rem] grid items-center justify-center">
+                    <div class="bg-white border lg:p-1 2xl:p-2 rounded-lg lg:mb-2 2xl:mb-3 lg:h-[6rem] 2xl:h-[7rem] lg:w-[6.5rem] 2xl:w-[7.5rem] grid items-center justify-center">
                         <img src="./assets/moneybag.png" alt="">
                     </div>
                     <div>Business Loan</div>
@@ -26,7 +26,7 @@ export default {
 
 
                 <ServiceCard>
-                    <div class="bg-white border p-2 rounded-lg mb-3 h-[7rem] w-[7rem] grid items-center justify-center">
+                    <div class="bg-white border lg:p-1 2xl:p-2 rounded-lg lg:mb-2 2xl:mb-3 lg:h-[6rem] 2xl:h-[7rem] lg:w-[6.5rem] 2xl:w-[7.5rem] grid items-center justify-center">
                         <img src="./assets/dbstack.png" alt="">
                     </div>
                     <div>Agricultural Loan</div>
@@ -34,7 +34,7 @@ export default {
 
 
                 <ServiceCard>
-                    <div class="bg-white border p-2 rounded-lg mb-3 h-[7rem] w-[7rem] grid items-center justify-center">
+                    <div class="bg-white border lg:p-1 2xl:p-2 rounded-lg lg:mb-2 2xl:mb-3 lg:h-[6rem] 2xl:h-[7rem] lg:w-[6.5rem] 2xl:w-[7.5rem] grid items-center justify-center">
                         <img src="./assets/dbstack.png" alt="">
                     </div>
                     <div>School Fees Loan</div>
@@ -42,7 +42,7 @@ export default {
 
 
                 <ServiceCard>
-                    <div class="bg-white border p-2 rounded-lg mb-3 h-[7rem] w-[7rem] grid items-center justify-center">
+                    <div class="bg-white border lg:p-1 2xl:p-2 rounded-lg lg:mb-2 2xl:mb-3 lg:h-[6rem] 2xl:h-[7rem] lg:w-[6.5rem] 2xl:w-[7.5rem] grid items-center justify-center">
                         <img src="./assets/dbstack.png" alt="">
                     </div>
                     <div>Daily Loan</div>

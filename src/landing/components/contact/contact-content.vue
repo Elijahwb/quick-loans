@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <div class="container grid grid-cols-2 items py-[6rem]">
+    <div class="container grid grid-cols-2 items px-5 lg:py-[3rem] 2xl:py-[6rem]">
         <ContactInfo />
         <ContactForm />
     </div>
