@@ -6,7 +6,7 @@ body {
 
 .company-name {
     /* 2xl:text-[3.25rem] */
-    @apply lg:text-[20px] text-white font-bold ml-3;
+    @apply lg:text-[20px] font-bold ml-3;
 }
 
 .bg-brand {

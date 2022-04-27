@@ -8,7 +8,9 @@ export default {
 import Landing from '@/landing/content'
 import navFunctions from '@/landing/components/header/nav-composable'
 
-navFunctions();
+const { handleScroll } = navFunctions();
+
+document.addEventListener('scroll', handleScroll);
 </script>
 
 <template>
