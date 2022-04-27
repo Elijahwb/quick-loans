@@ -1,5 +1,5 @@
 <template>
-<button class="bg-brand-500 py-1 px-5 rounded-full hover:opacity-90">{{label}}</button>
+    <button :class="{'bg-brand-500': !transparent, 'bg-transparent text-brand-500 hover:text-white hover:bg-brand-500': transparent}" class="border-[1.6px] border-brand-500 overflow-hidden py-1 px-5 rounded-md">{{label}}</button>
 </template>
 
 <script>
@@ -9,6 +9,10 @@ export default {
 
     props: {
         label: String,
+        transparent: {
+            type: Boolean,
+            default: false,
+        },
     },
 
 }

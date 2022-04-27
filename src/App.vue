@@ -1,14 +1,14 @@
 <template>
-  <Landing />
+  <core-component />
 </template>
 
 <script>
-import Landing from '@/landing/content'
+import CoreComponent from './core-component.vue'
 
 export default {
   name: 'App',
 
-  components: { Landing },
+  components: { CoreComponent },
 }
 </script>
 

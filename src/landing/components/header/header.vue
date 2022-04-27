@@ -1,30 +1,24 @@
 <template>
-    <header class="lg:h-[85vh] 2xl:h-[75vh]">
+    <div class="intro-container lg:h-[85vh] 2xl:h-[75vh]">
         <div class="h-full bg-black/50">
             <div class="h-full">
-                <Nav />
                 <Intro />
             </div>
         </div>
-    </header>
+    </div>
 </template>
 
 <script>
-import Nav from './nav.vue'
 import Intro from './intro.vue'
-
 
 export default {
     name: 'header-component',
-    components: { 
-        Nav,
-        Intro,
-    }
+    components: { Intro }
 }
 </script>
 
 <style scoped>
-header {
+.intro-container {
     background: url('./assets/group.jpg');
     background-size: cover;
     background-position: center;

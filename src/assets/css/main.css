@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
 
+body {
+    @apply text-[16px];
+}
+
+.company-name {
+    /* 2xl:text-[3.25rem] */
+    @apply lg:text-[20px] text-white font-bold ml-3;
+}
+
 .bg-brand {
     background: #800080;
 }

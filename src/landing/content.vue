@@ -1,4 +1,5 @@
 <script>
+import Nav from './components/header/nav.vue'
 import Header from './components/header/header.vue'
 import Services from './components/services/services-component.vue'
 import Aboutus from './components/about/aboutus-component.vue'
@@ -13,30 +14,33 @@ import Copyright from './components/copy-right.vue'
 export default {
     name:'header-component',
 
-    components: { Header, Services, Aboutus, ClientMessage, HowItWorks, Questions, Contactus, Footer, Copyright },
+    components: { Nav, Header, Services, Aboutus, ClientMessage, HowItWorks, Questions, Contactus, Footer, Copyright },
 }
 </script>
 
 <template>
-    <main class="bg-[#F3F7F9]">
+    <section class="bg-[#F3F7F9] relative">
+        <Nav />
+        <!-- class="mt-[94px]" -->
+        <main>
+            <Header />
 
-        <Header />
+            <Services />
 
-        <Services />
+            <Aboutus />
 
-        <Aboutus />
+            <ClientMessage />
 
-        <ClientMessage />
+            <HowItWorks />
 
-        <HowItWorks />
+            <Questions />
 
-        <Questions />
+            <Contactus />
 
-        <Contactus />
+            <Footer />
 
-        <Footer />
-
-        <Copyright />
+            <Copyright />
+        </main>
         
-    </main>
+    </section>
 </template>
