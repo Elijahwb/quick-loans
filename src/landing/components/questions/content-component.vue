@@ -2,10 +2,10 @@
     <section class="relative mt-5">
         <div class="bg-gradient-to-b from-black/50 via-brand-500/20 to-brand-500/80">
             <div class="container py-3 2xl:py-5 z-3 px-5">
-                <div class="sub-header-text font-bold text-white text-center pt-10">Frequently asked questions</div>
-                <div class="text-white text-center">
+                <div class="sub-header-text font-bold text-white text-center pt-2 lg:pt-10">Frequently asked questions</div>
+                <!-- <div class="text-white text-center">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dor
-                </div>
+                </div> -->
 
                 <div class="text-[#768599] bg-white rounded-md overflow-hidden my-7 lg:my-14">
                     <div class="flex justify-between items-center py-2 lg:py-4 px-4 border-b border-gray-400">

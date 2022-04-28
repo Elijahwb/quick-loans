@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white w-[80%] 2xl:w-[70%] lg:h-[75%] py-5 px-10 flex flex-col items-center justify-center rounded-xl text-gray-900">
+    <div class="bg-white w-[80%] 2xl:w-[70%] lg:h-[75%] mt-10 py-5 px-10 flex flex-col items-center justify-center rounded-xl text-gray-900">
         <div class="sub-header-text text-highlight">How  much do you want?</div>
 
         <div class="text-center small-header mt-2 lg:mt-5">We provide instant cash loans.</div>

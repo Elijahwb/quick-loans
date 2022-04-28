@@ -14,8 +14,8 @@ export default {
 <template>
     <section class="bg-[#F3F7F9] relative">
         <Nav />
-        <!-- class="mt-[94px]" -->
-        <main>
+        
+        <main class="mt-[94px]">
             <slot />
 
             <Footer />

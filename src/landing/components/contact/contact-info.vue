@@ -7,7 +7,7 @@
                 <div>For quick inquires simple send via form, call or send a email to below email address</div>
            </div>
 
-           <div class="text-sm lg:text-base mb-3 lg:mb-0 grid grid-cols-2 lg:my-7 2xl:my-10">
+           <div class="text-sm lg:text-base mb-3 lg:mb-0 grid lg:grid-cols-2 lg:my-7 2xl:my-10">
                <div class="flex items-start"> 
                     <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 h-5 lg:h-7 2xl:h-10 w-5 lg:w-7 2xl:w-10 text-brand-500 mr-2 lg:mr-5" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 
-               <div class="flex items-start"> 
+               <div class="flex items-start mt-3 lg:mt-0"> 
                     <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 h-5 lg:h-7 2xl:h-10 w-5 lg:w-7 2xl:w-10 text-brand-500 mr-2 lg:mr-5" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
@@ -44,7 +44,7 @@
                 </div>
            </div>
 
-           <div class="text-sm lg:text-base mb-3 lg:mb-0 grid grid-cols-2 lg:my-7 2xl:my-10">
+           <div class="text-sm lg:text-base mb-3 lg:mb-0 grid lg:grid-cols-2 lg:my-7 2xl:my-10">
                <div class="flex items-start"> 
                     <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 h-5 lg:h-7 2xl:h-10 w-5 lg:w-7 2xl:w-10 text-brand-500 mr-2 lg:mr-5" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
@@ -62,7 +62,7 @@
                     </div>
                 </div>
 
-               <div class="flex items-start"> 
+               <div class="flex items-start mt-3 lg:mt-0"> 
                     <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 h-5 lg:h-7 2xl:h-10 w-5 lg:w-7 2xl:w-10 text-brand-500 mr-2 lg:mr-5" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
@@ -79,7 +79,7 @@
                 </div>
            </div>
 
-           <div class="text-sm lg:text-base mb-3 lg:mb-0 grid grid-cols-2 lg:my-7 2xl:my-10">
+           <div class="text-sm lg:text-base mb-3 lg:mb-0 grid lg:grid-cols-2 lg:my-7 2xl:my-10">
                <div class="flex items-start"> 
                     <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 h-5 lg:h-7 2xl:h-10 w-5 lg:w-7 2xl:w-10 text-brand-500 mr-2 lg:mr-5" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
