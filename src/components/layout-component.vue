@@ -1,7 +1,7 @@
 <script>
-import Nav from './components/header/nav.vue'
-import Footer from './components/footer/footer-content.vue'
-import Copyright from './components/copy-right.vue'
+import Nav from '@/components/nav.vue'
+import Footer from '@/components/footer/footer-content.vue'
+import Copyright from '@/components/copy-right.vue'
 
 
 export default {
@@ -14,8 +14,8 @@ export default {
 <template>
     <section class="bg-[#F3F7F9] relative">
         <Nav />
-        
-        <main class="mt-[94px]">
+        <!-- class="mt-[94px]" -->
+        <main>
             <slot />
 
             <Footer />

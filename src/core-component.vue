@@ -5,8 +5,7 @@ export default {
 </script>
 
 <script setup>
-import Landing from '@/landing/content'
-import navFunctions from '@/landing/components/header/nav-composable'
+import navFunctions from '@/components/nav-composable'
 
 const { handleScroll } = navFunctions();
 
@@ -14,5 +13,5 @@ document.addEventListener('scroll', handleScroll);
 </script>
 
 <template>
-    <Landing />
+    <router-view />
 </template>

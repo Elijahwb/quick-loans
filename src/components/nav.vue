@@ -20,17 +20,17 @@ const hideMobileMenu = inject('hideMobileMenu')
         <div :class="{'bg-white text-[#41201E] shadow': isSolidNavBg, 'bg-transparent text-white': !isSolidNavBg}" class="hidden lg:grid fixed top-0 w-full z-10">
             <div class="container flex w-full justify-between items-center py-5 px-5 2xl:px-0">
                 <div class="flex items-center">
-                    <img src="./assets/logo.png" alt="">
+                    <img src="@/assets/logo.png" alt="">
                     <div class="company-name">Eleglance Finance</div>
                 </div>
 
                 <nav class="flex items-center font-medium">
-                    <div class="mx-6 cursor-pointer">Home</div>
-                    <div class="mx-6 cursor-pointer">Products</div>
-                    <div class="mx-6 cursor-pointer">Services</div>
-                    <div class="mx-6 cursor-pointer">About</div>
-                    <div class="mx-6 cursor-pointer">FAQ</div>
-                    <div class="mx-6 cursor-pointer">Contact</div>
+                    <router-link to="/" class="mx-6">Home</router-link>
+                    <router-link to="/products" class="mx-6">Products</router-link>
+                    <div class="mx-6">Services</div>
+                    <router-link to="/about-us" class="mx-6">About</router-link>
+                    <div class="mx-6">FAQ</div>
+                    <div class="mx-6">Contact</div>
                 </nav>
 
                 <button-component class="font-medium" :transparent="true" label="Apply Today"></button-component>
@@ -42,7 +42,7 @@ const hideMobileMenu = inject('hideMobileMenu')
         <div :class="{'bg-white text-[#41201E] shadow': isSolidNavBg, 'bg-transparent text-white': !isSolidNavBg}"  class="fixed lg:hidden top-0 w-full flex justify-between items-center z-10 py-5 px-5">
             
             <div class="flex items-center">
-                <img class="w-10" src="./assets/logo.png" alt="">
+                <img class="w-10" src="@/assets/logo.png" alt="">
                 <div class="company-name">Eleglance Finance</div>
             </div>
 
