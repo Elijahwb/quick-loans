@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-    <div class="w-full bg-white relative mb-[8rem]">
+    <div class="w-full bg-white relative mb-[4.5rem]">
         <div class="absolute w-full top-[-1.8rem] lg:top-[-3rem]">
             <div class="container flex items-start justify-center">
                 <ServiceCard>
