@@ -54,27 +54,27 @@ export default {
         <div class="lg:hidden px-5 py-2">
             <div class="grid grid-cols-2 gap-6">
                 <div class="flex bg-white rounded shadow-md py-3 px-2">
-                    <div class="w-6 mr-1 p-0.5"><img class="w-full h-full" src="./assets/moneybag.png" alt=""></div>
+                    <div class="w-6 h-6 mr-1 p-0.5"><img class="w-full h-full" src="./assets/moneybag.png" alt=""></div>
                     <div>Salary Loan</div>
                 </div>
                 <div class="flex bg-white rounded shadow-md py-3 px-2">
-                    <div class="w-6 mr-1 p-0.5"><img class="w-full h-full" src="./assets/moneybag.png" alt=""></div>
+                    <div class="w-6 h-6 mr-1 p-0.5"><img class="w-full h-full" src="./assets/moneybag.png" alt=""></div>
                     <div>Business Loan</div>
                 </div>
             </div>
 
             <div class="flex bg-white rounded shadow-md py-3 px-2 mt-2.5">
-                <div class="w-6 mr-1 p-0.5"><img class="w-full h-full" src="./assets/moneybag.png" alt=""></div>
+                <div class="w-6 h-6 mr-1 p-0.5"><img class="w-full h-full" src="./assets/moneybag.png" alt=""></div>
                 <div>School Fees Loan</div>
             </div>
 
             <div class="grid grid-cols-2 gap-6 mt-2.5">
                 <div class="flex bg-white rounded shadow-md py-3 px-2">
-                    <div class="w-6 mr-1 p-0.5"><img class="w-full h-full" src="./assets/moneybag.png" alt=""></div>
+                    <div class="w-6 h-6 mr-1 p-0.5"><img class="w-full h-full" src="./assets/moneybag.png" alt=""></div>
                     <div>Agricultural Loan</div>
                 </div>
                 <div class="flex bg-white rounded shadow-md py-3 px-2">
-                    <div class="w-6 mr-1 p-0.5"><img class="w-full h-full" src="./assets/moneybag.png" alt=""></div>
+                    <div class="w-6 h-6 mr-1 p-0.5"><img class="w-full h-full" src="./assets/moneybag.png" alt=""></div>
                     <div>Daily Loan</div>
                 </div>
             </div>
