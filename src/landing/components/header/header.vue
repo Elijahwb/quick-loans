@@ -1,5 +1,5 @@
 <template>
-    <div class="intro-container lg:h-[85vh] 2xl:h-[75vh]">
+    <div class="intro-container h-[90vh] lg:h-[85vh] 2xl:h-[75vh]">
         <div class="h-full bg-black/50">
             <div class="h-full">
                 <Intro />

@@ -1,14 +1,14 @@
 <template>
-    <div class="container pt-[100px] h-[90%] w-full grid grid-cols-2 text-white text-sm">
+    <div class="container pt-[100px] h-[90%] w-full grid lg:grid-cols-2 text-white text-sm">
         <div class="h-full flex items-center justify-center">
             <div class="flex flex-col justify-center">
-                <div class="lg:text-[2.9rem] 2xl:text-[3.75rem] font-bold">
+                <div class="header-text text-center lg:text-left">
                     <div>Get a <span class="text-brand-500">Business</span></div> 
-                    <div class="mt-[5rem]"><span class="text-brand-500">Loan</span> Today</div>
+                    <div class="mt-4 lg:mt-[5rem]"><span class="text-brand-500">Loan</span> Today</div>
                 </div>
 
-                <div class="mt-[4rem]">
-                    <button-component class="py-3.5 px-5 lg:text-[1rem] 2xl:text-[1.5625rem] font-medium" label="How it works"></button-component>
+                <div class="flex justify-center lg:block mt-[2.5rem] lg:mt-[4rem]">
+                    <button-component class="prominent-button px-5" label="How it works" />
                 </div>
             </div>
         </div>
