@@ -62,10 +62,10 @@ const hideMobileMenu = inject('hideMobileMenu')
             </div>
 
             <nav class="flex flex-col items-center font-medium">
-                <div class="mx-6 my-4 cursor-pointer">Home</div>
-                <div class="mx-6 my-4 cursor-pointer">Products</div>
+                <router-link to="/" class="mx-6 my-4 cursor-pointer">Home</router-link>
+                <router-link to="/products" class="mx-6 my-4 cursor-pointer">Products</router-link>
                 <div class="mx-6 my-4 cursor-pointer">Services</div>
-                <div class="mx-6 my-4 cursor-pointer">About</div>
+                <router-link to="/about-us" class="mx-6 my-4 cursor-pointer">About</router-link>
                 <div class="mx-6 my-4 cursor-pointer">FAQ</div>
                 <div class="mx-6 my-4 cursor-pointer">Contact</div>
             </nav>
