@@ -5,9 +5,10 @@ import './assets/css/main.css'
 import router from './router'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFacebook, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faFacebook, faTwitter, faWhatsapp);
+library.add(faFacebook, faTwitter, faWhatsapp, faQuoteLeft);
 
 createApp(App)
 .component("font-awesome-icon", FontAwesomeIcon)

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
     "autoprefixer": "^9.8.8",
     "core-js": "^3.8.3",

@@ -6,17 +6,6 @@
             </div>
         </div>
 
-        <!-- <div class="relative h-[50%] lg:h-[14.5rem] overflow-hidden border-2 border-green-500">
-            <div class="w-full flex lg:top-[-12rem] lg:h-[26rem] absolute">
-                <div class="pr-4 w-[30%] h-full flex flex-col justify-between">
-                    <div class="w-full h-[10rem]"></div>
-                    <div class="w-full h-[50%] bg-brand-500"></div>
-                </div>
-                <div class="w-[70%]">
-                    <img class="w-full h-full" src="./assets/2.png" alt="">
-                </div>
-            </div>
-        </div> -->
         <div class="relative h-[30%] lg:h-[50%] flex">
             <div class="pr-4 w-[30%] h-full flex flex-col justify-between">
                 <div class="w-full h-[50%] bg-brand-500"></div>

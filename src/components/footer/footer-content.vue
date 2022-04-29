@@ -22,10 +22,10 @@
                                 <font-awesome-icon :icon="['fab', 'facebook']" />
                             </div>
                             <div class="w-[40px] ml-4 h-[40px] rounded-full flex items-center justify-center bg-brand-500/50">
-                                 <font-awesome-icon :icon="['fab', 'twitter']" />
+                                <font-awesome-icon :icon="['fab', 'twitter']" />
                             </div>
                             <div class="w-[40px] ml-4 h-[40px] rounded-full flex items-center justify-center bg-brand-500/50">
-                                 <font-awesome-icon :icon="['fab', 'whatsapp']" />
+                                <font-awesome-icon :icon="['fab', 'whatsapp']" />
                             </div>
                         </div>
                     </div>
