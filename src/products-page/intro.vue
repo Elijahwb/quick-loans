@@ -1,15 +1,15 @@
 <script>
 
 export default {
-    name: 'aboutus-intro',
+    name: 'products-intro',
 }
 </script>
 
 <template>
-    <div class="intro-container h-[50vh] mb-[80vh]">
+    <div class="intro-container h-[30vh] lg:h-[50vh]">
         <div class="h-full bg-black/50">
-            <div class="h-full">
-                
+            <div class="h-full flex items-center justify-center">
+                <div class="header-text text-white"><span class="text-brand underline">Our</span> Products</div>
             </div>
         </div>
     </div>

@@ -16,7 +16,7 @@
                     <div class="flex items-center">
                         <!-- Avatar -->
                         <div class="w-[60px] h-[60px] rounded-full">
-                            <img class="object-cover h-full w-full" src="./assets/aatar3.png" alt="">
+                            <img class="object-cover h-full w-full" src="@/assets/aatar3.png" alt="">
                         </div>
                         <!-- End of Avatar -->
 
@@ -41,7 +41,7 @@
                     <div class="flex items-center">
                         <!-- Avatar -->
                         <div class="w-[60px] h-[60px] rounded-full">
-                            <img class="object-cover h-full w-full" src="./assets/aatar3.png" alt="">
+                            <img class="object-cover h-full w-full" src="@/assets/aatar3.png" alt="">
                         </div>
                         <!-- End of Avatar -->
 
@@ -66,7 +66,7 @@
                     <div class="flex items-center">
                         <!-- Avatar -->
                         <div class="w-[60px] h-[60px] rounded-full">
-                            <img class="object-cover h-full w-full" src="./assets/aatar3.png" alt="">
+                            <img class="object-cover h-full w-full" src="@/assets/aatar3.png" alt="">
                         </div>
                         <!-- End of Avatar -->
 

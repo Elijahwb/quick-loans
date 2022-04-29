@@ -1,5 +1,6 @@
 <script>
 import Nav from '@/components/nav.vue'
+import HappyClients from '@/components/happy-clients.vue'
 import Footer from '@/components/footer/footer-content.vue'
 import Copyright from '@/components/copy-right.vue'
 
@@ -7,7 +8,7 @@ import Copyright from '@/components/copy-right.vue'
 export default {
     name:'header-component',
 
-    components: { Nav, Footer, Copyright },
+    components: { Nav, HappyClients, Footer, Copyright },
 }
 </script>
 
@@ -17,6 +18,8 @@ export default {
         <!-- class="mt-[94px]" -->
         <main>
             <slot />
+
+            <happy-clients />
 
             <Footer />
 

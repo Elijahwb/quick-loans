@@ -7,10 +7,9 @@ import FinancialDetails from './financial-details.vue'
 import CultureStatement from './culture-statement.vue'
 import CoreValues from './core-values.vue'
 import CompanyHistory from './company-history.vue'
-import HappyClients from './happy-clients.vue'
 
 export default {
-	components: { layoutComponent, AboutusIntro, CompanyVision, CompanyMission, FinancialDetails, CultureStatement, CoreValues, CompanyHistory, HappyClients },
+	components: { layoutComponent, AboutusIntro, CompanyVision, CompanyMission, FinancialDetails, CultureStatement, CoreValues, CompanyHistory },
     name: 'about-page',
 }
 </script>
@@ -24,6 +23,5 @@ export default {
         <culture-statement />
         <core-values />
         <company-history />
-        <happy-clients />
     </layout-component>
 </template>
