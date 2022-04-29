@@ -6,7 +6,7 @@
             </div>
 
             <!-- HAPPY CLIENTS LIST -->
-            <section class="grid grid-cols-3 gap-[5rem] my-10">
+            <section class="grid lg:grid-cols-3 gap-[2.5rem] lg:gap-[5rem] px-5 lg:px-0 my-5 lg:my-10">
                 <!-- Client Card -->
                 <div class="relative p-5 text-pale bg-white rounded-md shadow-md cursor-pointer hover:text-white hover:bg-brand group">
                     <p class="my-4">

@@ -8,7 +8,7 @@ export default {
 
 <template>
     <section>
-        <div class="container grid grid-cols-2 gap-5 py-10">
+        <div class="container grid lg:grid-cols-2 gap-5 py-10 px-5 lg:px-0">
             <div>
                 <div class="sub-header-text"><span class="text-brand underline">About</span> Eleglance Finance</div>
 
@@ -21,7 +21,7 @@ export default {
                         EFL offers a mix of loan products, including individual loans, voluntary savings, mobile money transfers, micro insurance and business advisory services tailored to the needs of its clients. 
                     </p>
 
-                    <p class="my-10">
+                    <p class="mt-10 lg:mt-0 lg:my-10">
                         We are professional, accountable, passionately driven by the belief that every Ugandan should have quick access to high quality and reliable financial services.
                     </p>
                 </article>

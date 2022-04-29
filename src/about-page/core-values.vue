@@ -1,10 +1,10 @@
 <template>
     <section>
-        <div class="container flex py-10">
-            <div class="header-text text-highlight flex flex-col items-center justify-center font-normal mr-20">
-                <div>
-                    <div class="text-brand">Our</div>
-                    <div>Core</div>
+        <div class="container flex flex-col lg:flex-row py-10 px-5 lg:px-0">
+            <div class="header-text text-highlight flex flex-col items-center justify-center font-normal mb-5 lg:mb-0 lg:mr-20">
+                <div class="w-full flex justify-center lg:grid">
+                    <div class="text-brand mr-2">Our</div>
+                    <div class="mr-2">Core</div>
                     <div>Values</div>
                 </div>
             </div>
