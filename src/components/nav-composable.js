@@ -15,8 +15,14 @@ export default function navFunctions() {
         else isSolidNavBg.value = false;
     }
 
+    const handleNavClick = () => {
+        document.getElementById('body').scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"})
+        setTimeout(() => hideMobileMenu(), 100)
+    }
+
     provide('isMobileNav', isMobileNav);
     provide('isSolidNavBg', isSolidNavBg);
+    provide('handleNavClick', handleNavClick);
     provide('showMobileMenu', showMobileMenu);
     provide('hideMobileMenu', hideMobileMenu);
 

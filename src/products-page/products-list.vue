@@ -1,3 +1,16 @@
+<script>
+import { inject } from '@vue/runtime-core'
+export default {
+    setup() {
+        const handleNavClick = inject('handleNavClick')
+
+        return {
+            handleNavClick,
+        }
+    }
+}
+</script>
+
 <template>
     <section>
         <div class="container grid lg:grid-cols-2 gap-10 px-5 lg:px-0 py-5 lg:py-20">
@@ -15,7 +28,7 @@
                             Enabling you fulfill your dreams living your life to the full
                         </div>
 
-                        <router-link to="/salary-loan" class="text-brand flex items-center">
+                        <router-link @click="handleNavClick" to="/salary-loan" class="text-brand flex items-center">
                             <div>Tell me more</div>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -36,7 +49,7 @@
                             Let us help you realize your full business potential through our SME loan
                         </div>
 
-                        <router-link to="/business-loan" class="text-brand flex items-center">
+                        <router-link @click="handleNavClick" to="/business-loan" class="text-brand flex items-center">
                             <div>Tell me more</div>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -80,7 +93,7 @@
                             We understand the challenges farmers face from day to day
                         </div>
 
-                        <router-link to="/agricultural-loan" class="text-brand flex items-center">
+                        <router-link @click="handleNavClick" to="/agricultural-loan" class="text-brand flex items-center">
                             <div>Tell me more</div>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -103,7 +116,7 @@
                             Enabling you fulfill your dreams living your life to the full
                         </div>
 
-                        <router-link to="/daily-interest-loan" class="text-brand flex items-center">
+                        <router-link @click="handleNavClick" to="/daily-interest-loan" class="text-brand flex items-center">
                             <div>Tell me more</div>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -124,7 +137,7 @@
                             we understand that securing a future is important to you. Secure your future Today! 
                         </div>
 
-                        <router-link to="/school-fees-loan" class="text-brand flex items-center">
+                        <router-link @click="handleNavClick" to="/school-fees-loan" class="text-brand flex items-center">
                             <div>Tell me more</div>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />

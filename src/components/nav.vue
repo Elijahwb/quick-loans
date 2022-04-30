@@ -12,6 +12,8 @@ const isMobileNav = inject('isMobileNav')
 const isSolidNavBg = inject('isSolidNavBg')
 const showMobileMenu = inject('showMobileMenu')
 const hideMobileMenu = inject('hideMobileMenu')
+const handleNavClick = inject('handleNavClick')
+
 </script>
 
 <template>
@@ -60,10 +62,10 @@ const hideMobileMenu = inject('hideMobileMenu')
             </div>
 
             <nav class="flex flex-col items-center font-medium">
-                <router-link to="/" class="mx-6 my-4 cursor-pointer">Home</router-link>
-                <router-link to="/products" class="mx-6 my-4 cursor-pointer">Products</router-link>
-                <router-link to="/about-us" class="mx-6 my-4 cursor-pointer">About</router-link>
-                <router-link to="/contact-us" class="mx-6 my-4 cursor-pointer">Contact</router-link>
+                <router-link @click="handleNavClick" to="/" class="mx-6 my-4 cursor-pointer">Home</router-link>
+                <router-link @click="handleNavClick" to="/products" class="mx-6 my-4 cursor-pointer">Products</router-link>
+                <router-link @click="handleNavClick" to="/about-us" class="mx-6 my-4 cursor-pointer">About</router-link>
+                <router-link @click="handleNavClick" to="/contact-us" class="mx-6 my-4 cursor-pointer">Contact</router-link>
             </nav>
         </div>
         <!-- MOBILE NAV CONTENT -->
