@@ -19,7 +19,7 @@ export default {
         <products-intro />
         <loan-details />
         <loan-description>
-            Eleglance Finance understands that you have dreams and ambitions about improving the quality of your life. We know that you would for example like to buy new furniture or buy a plot of land.
+            Nothing is more important to you than securing Knowledge for yourself or your children. With our school fees loan you can secure a future by getting a loan and pay it later in manageable installments and help your children save for the future...
         </loan-description>
         <salary-features />
         <qualification-section/>

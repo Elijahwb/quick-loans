@@ -4,7 +4,7 @@
             <div></div>
 
             <div class="text-pale">
-                <div class="sub-header-text text-highlight mb-5"><span class="text-brand underline">Features</span> of Our Salary Loan</div>
+                <div class="sub-header-text text-highlight mb-5"><span class="text-brand underline">Features</span> of Our Daily Interest Loan</div>
 
                 <p class="sub-header-text">24 hour loan processing:</p>
 

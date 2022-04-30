@@ -13,7 +13,7 @@
 
                         <article>
                             <p>
-                                Proof of income (Certified copy of pay slip).
+                                Proof of income (Business Cash flows).
                             </p>
                         </article>
                     </div>
@@ -24,7 +24,7 @@
 
                         <article>
                             <p>
-                               Introduction letter from employer on company letterhead.
+                               Proof of ownership of business (Certificate of incorporation &amp; memorandum of association)
                             </p>
                         </article>
                     </div>

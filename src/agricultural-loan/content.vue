@@ -19,7 +19,7 @@ export default {
         <products-intro />
         <loan-details />
         <loan-description>
-            Eleglance Finance understands that you have dreams and ambitions about improving the quality of your life. We know that you would for example like to buy new furniture or buy a plot of land.
+            Providing Finance to farmers is unique. We understand the challenges farmers face from day to day. Our aim is to help you with all your short.
         </loan-description>
         <salary-features />
         <qualification-section/>
