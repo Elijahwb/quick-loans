@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="container grid lg:grid-cols-2 gap-10 px-5 lg:px-0 py-20">
+        <div class="container grid lg:grid-cols-2 gap-10 px-5 lg:px-0 py-5 lg:py-20">
             <div>
                 <div class="grid lg:grid-cols-2 gap-5">
                     <!-- CARD -->
@@ -140,25 +140,25 @@
                     <div class="header-text text-highlight w-full"><span class="text-brand underline">Loan</span> Products</div>
 
                     <article class="text-pale">
-                        <p class="my-5">
+                        <p class="my-3 lg:my-5">
                             Eleglance Finance offers a mix of loan products customized to the needs of the clients in urban, peri-urban and rural areas of Uganda to meet their ever-changing needs. 
                         </p>
-                        <p class="my-5">
+                        <p class="my-3 lg:my-5">
                             These products include individual loans, salary loans, Agricultural loans, Daily interest loans and school fees loans. 
                         </p>
                     </article>
                 </div>
 
-                <div class="my-10">
+                <div class="my-5 lg:my-10">
                     <div class="header-text text-highlight w-full"><span class="text-brand underline">Other</span> Services</div>
 
                     <article class="text-pale">
-                        <div class="my-5">
+                        <div class="my-3 lg:my-5">
                             <p class="font-medium">1. Mobile Money Transfers:</p>
                             <p class="ml-5 my-1">a. Airtel</p>
                             <p class="ml-5 my-1">b. MTN</p>
                         </div>
-                        <div class="my-5">
+                        <div class="my-3 lg:my-5">
                             <p class="font-medium">2. Agency Banking:</p>
                             <p class="ml-5 my-1">a. Centenary Bank</p>
                             <p class="ml-5 my-1">b. DFCU Bank</p>
