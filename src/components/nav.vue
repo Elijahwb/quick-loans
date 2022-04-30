@@ -27,10 +27,8 @@ const hideMobileMenu = inject('hideMobileMenu')
                 <nav class="flex items-center font-medium">
                     <router-link to="/" class="mx-6">Home</router-link>
                     <router-link to="/products" class="mx-6">Products</router-link>
-                    <div class="mx-6">Services</div>
                     <router-link to="/about-us" class="mx-6">About</router-link>
-                    <div class="mx-6">FAQ</div>
-                    <div class="mx-6">Contact</div>
+                    <router-link to="/contact-us" class="mx-6">Contact</router-link>
                 </nav>
 
                 <button-component class="font-medium" :transparent="true" label="Apply Today"></button-component>
@@ -64,10 +62,8 @@ const hideMobileMenu = inject('hideMobileMenu')
             <nav class="flex flex-col items-center font-medium">
                 <router-link to="/" class="mx-6 my-4 cursor-pointer">Home</router-link>
                 <router-link to="/products" class="mx-6 my-4 cursor-pointer">Products</router-link>
-                <div class="mx-6 my-4 cursor-pointer">Services</div>
                 <router-link to="/about-us" class="mx-6 my-4 cursor-pointer">About</router-link>
-                <div class="mx-6 my-4 cursor-pointer">FAQ</div>
-                <div class="mx-6 my-4 cursor-pointer">Contact</div>
+                <router-link to="/contact-us" class="mx-6 my-4 cursor-pointer">Contact</router-link>
             </nav>
         </div>
         <!-- MOBILE NAV CONTENT -->
