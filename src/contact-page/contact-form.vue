@@ -26,7 +26,7 @@ export default {
             <div>
                 <p>Products</p>
 
-                <div class="grid grid-cols-2 font-medium">
+                <div class="grid lg:grid-cols-2 font-medium">
                     <div>
                         <div class="flex items-center my-3">
                             <input type="checkbox" name="" id="">

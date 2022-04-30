@@ -61,7 +61,7 @@ export default {
 
                 <div class="grid lg:grid-cols-2 gap-5 mt-5">
                     <!-- CARD -->
-                    <div class="text-center rounded-md shadow-lg flex flex-col items-center justify-center 2xl:w-[397px] bg-[#41201E] p-5 2xl:p-10">
+                    <div class="hidden text-center rounded-md shadow-lg lg:flex flex-col items-center justify-center 2xl:w-[397px] bg-[#41201E] p-5 2xl:p-10">
                         <!-- <div class="w-[40px] lg:w-[60px] 2xl:w-[80px] h-[40px] lg:h-[60px] 2xl:h-[80px] rounded-full text-white lg:text-[1.5rem] 2xl:text-[1.875rem] flex items-center justify-center">
                             <img src="@/assets/moneybag.png" alt="">
                         </div>

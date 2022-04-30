@@ -4,7 +4,7 @@
 
         <div class="text-[#768599]">
            <div class="my-3 2xl:my-5">
-                <div>For quick inquires simple send via form, call or send a email to below email address</div>
+                <div>For quick inquires call-in, our friednly team is always avialbale.</div>
            </div>
 
            <div class="text-sm lg:text-base mb-3 lg:mb-0 grid lg:grid-cols-2 lg:my-7 2xl:my-10">
