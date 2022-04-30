@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-    <div class="container pt-5 lg:pt-0 lg:mb-12 2xl:my-20 px-5">
+    <div class="container pt-3 lg:pt-0 lg:mb-12 2xl:my-20 px-5">
         <div class="text-highlight sub-header-text text-center mt-5 mb-10 font-bold"><span class="text-brand underline">How</span> it works</div>
 
         <div class="grid lg:grid-cols-3 gap-5 lg:gap-20">

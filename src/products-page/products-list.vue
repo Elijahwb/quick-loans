@@ -15,12 +15,12 @@
                             Enabling you fulfill your dreams living your life to the full
                         </div>
 
-                        <div class="text-brand flex items-center">
+                        <router-link to="/salary-loan" class="text-brand flex items-center">
                             <div>Tell me more</div>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
-                        </div>
+                        </router-link>
                     </div>
                     <!-- END OF CARD -->
 
@@ -36,12 +36,12 @@
                             Let us help you realize your full business potential through our SME loan
                         </div>
 
-                        <div class="text-brand flex items-center">
+                        <router-link to="/business-loan" class="text-brand flex items-center">
                             <div>Tell me more</div>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
-                        </div>
+                        </router-link>
                     </div>
                     <!-- END OF CARD -->
                 </div>
@@ -80,12 +80,12 @@
                             We understand the challenges farmers face from day to day
                         </div>
 
-                        <div class="text-brand flex items-center">
+                        <router-link to="/agricultural-loan" class="text-brand flex items-center">
                             <div>Tell me more</div>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
-                        </div>
+                        </router-link>
                     </div>
                     <!-- END OF CARD -->
                 </div>
@@ -103,12 +103,12 @@
                             Enabling you fulfill your dreams living your life to the full
                         </div>
 
-                        <div class="text-brand flex items-center">
+                        <router-link to="/daily-interest-loan" class="text-brand flex items-center">
                             <div>Tell me more</div>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
-                        </div>
+                        </router-link>
                     </div>
                     <!-- END OF CARD -->
 
@@ -124,12 +124,12 @@
                             we understand that securing a future is important to you. Secure your future Today! 
                         </div>
 
-                        <div class="text-brand flex items-center">
+                        <router-link to="/school-fees-loan" class="text-brand flex items-center">
                             <div>Tell me more</div>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
-                        </div>
+                        </router-link>
                     </div>
                     <!-- END OF CARD -->
                 </div>
