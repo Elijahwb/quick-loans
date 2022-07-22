@@ -17,6 +17,10 @@ export default {
                        Are you running a business and need quick cash to close a deal? We got you covered, this product targets all clients in rural or peri- urban areas, as long as you are engaged in business enterprises and have short term liquidity needs.
                     </article>
                 </div>
+
+                <div class="pl-10 pt-5">
+                    <img src="@/assets/dailyLoan.jpeg" alt="">
+                </div>
             </div>
         </div>
     </section>

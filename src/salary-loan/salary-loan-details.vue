@@ -21,6 +21,10 @@ export default {
                         You may also be planning to study for your Masters or parallel degree or any other grand dream you may have. All these dreams need financing to become a reality. That is why we at Eleglance Finance offer you salary Loans to enable you fulfill your dreams and live your life to the full.
                     </article>
                 </div>
+
+                <div class="pl-10 pt-5">
+                    <img src="@/assets/salaryLoan.jpg" alt="">
+                </div>
             </div>
         </div>
     </section>

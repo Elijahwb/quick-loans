@@ -1,37 +1,18 @@
 <script setup>
-import { onMounted } from 'vue';
+import { watch, ref, inject } from 'vue';
 
-let slides = []
-let numberOfSlides = 0
-let activeSlideIndex = 0
+const lastSlide = ref(null)
 
-onMounted(() => {
-    slides = document.querySelectorAll('.slide')
+const initiateSliderFunctions = inject('initiateSliderFunctions')
 
-    numberOfSlides = slides.length
-
-    slides[0].classList.add('active')
-
-
-    setTimeout(() => {
-        setInterval(() => nextSlide(), 4000)
-    }, 4000)
-
+watch(lastSlide, () => {
+    if (lastSlide.value !== null) {
+        initiateSliderFunctions()
+        console.log('All slides have been mounted')
+    }
 })
 
-const removeActiveClass = () => slides.forEach((slide) => slide.classList.remove('active'))
-
-const nextSlide = () => {
-    removeActiveClass()
-    activeSlideIndex += 1
-
-    if (activeSlideIndex < numberOfSlides) slides[activeSlideIndex].classList.add('active')
-
-    else {
-        activeSlideIndex = 0
-        slides[activeSlideIndex].classList.add('active')
-    }
-}
+// onMounted(() => initiateSliderFunctions())
 
 </script>
 
@@ -53,16 +34,13 @@ const nextSlide = () => {
             <img src="@/assets/dailyLoan.jpeg" alt="">
         </div>
         
-        <div class="slide" >
+        <div ref="lastSlide" class="slide" >
             <img src="@/assets/schoolFeesLoan.jpg" alt="">
         </div>
     </div>
 </template>
 
 <style scoped>
-button {
-    @apply bg-white text-brand px-4 py-1 mx-5;
-}
 .slide {
     @apply absolute top-0 bottom-0 left-0 right-0 z-[-1];
 }

@@ -57,6 +57,10 @@ export default {
                         A considerable proportion of our customers come from repeat or recommended sources. Come talk to us, we are straight forward to deal with and speak farming.  
                     </article>
                 </div>
+
+                <div class="pl-10 pt-5">
+                    <img src="@/assets/agricLoan.jpg" alt="">
+                </div>
             </div>
         </div>
     </section>

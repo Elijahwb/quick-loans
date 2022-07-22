@@ -22,6 +22,10 @@ export default {
                         At Eleglance Finance we understand that securing a future is important to you.  This product is for all our existing clients who may have school fees needs.
                     </article>
                 </div>
+
+                <div class="pl-10 pt-5">
+                    <img src="@/assets/schoolFeesLoan.jpg" alt="">
+                </div>
             </div>
         </div>
     </section>

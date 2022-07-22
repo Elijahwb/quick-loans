@@ -1,14 +1,9 @@
-<script>
+<script setup>
 import Intro from './intro.vue'
 import HomeSlider from './home-slider.vue'
+import useSliderFunctions from './composable'
 
-export default {
-    name: 'header-component',
-    components: {
-        Intro,
-        HomeSlider,
-    }
-}
+useSliderFunctions()
 </script>
 
 <template>

@@ -22,6 +22,10 @@ export default {
                         Our SME loan is a market place for quick and reliable way to access credit. Eleglance has a smarter, fairer and more humane way of doing money. It’s like borrowing and lending with your friends and family. Let us help you realize your full business potential through our SME loan.
                     </article>
                 </div>
+
+                <div class="pl-10 pt-5">
+                    <img src="@/assets/businessLoan.jpg" alt="">
+                </div>
             </div>
         </div>
     </section>
