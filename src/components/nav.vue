@@ -30,6 +30,8 @@ const handleNavClick = inject('handleNavClick')
                     <router-link to="/" class="mx-6">Home</router-link>
                     <router-link to="/products" class="mx-6">Products</router-link>
                     <router-link to="/about-us" class="mx-6">About</router-link>
+                    <router-link to="#" class="mx-6">CSR</router-link>
+                    <router-link to="#" class="mx-6">Careers</router-link>
                     <router-link to="/contact-us" class="mx-6">Contact</router-link>
                 </nav>
 
@@ -65,6 +67,8 @@ const handleNavClick = inject('handleNavClick')
                 <router-link @click="handleNavClick" to="/" class="mx-6 my-4 cursor-pointer">Home</router-link>
                 <router-link @click="handleNavClick" to="/products" class="mx-6 my-4 cursor-pointer">Products</router-link>
                 <router-link @click="handleNavClick" to="/about-us" class="mx-6 my-4 cursor-pointer">About</router-link>
+                <router-link @click="handleNavClick" to="#" class="mx-6 my-4 cursor-pointer">CSR</router-link>
+                <router-link @click="handleNavClick" to="#" class="mx-6 my-4 cursor-pointer">Careers</router-link>
                 <router-link @click="handleNavClick" to="/contact-us" class="mx-6 my-4 cursor-pointer">Contact</router-link>
             </nav>
         </div>

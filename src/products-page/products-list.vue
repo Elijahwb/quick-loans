@@ -1,14 +1,9 @@
-<script>
-import { inject } from '@vue/runtime-core'
-export default {
-    setup() {
-        const handleNavClick = inject('handleNavClick')
+<script setup>
+import { inject } from 'vue'
 
-        return {
-            handleNavClick,
-        }
-    }
-}
+const handleNavClick = inject('handleNavClick')
+
+        
 </script>
 
 <template>
@@ -17,10 +12,11 @@ export default {
             <div>
                 <div class="grid lg:grid-cols-2 gap-5">
                     <!-- CARD -->
-                    <div class="text-center rounded-md shadow-lg flex flex-col items-center justify-center 2xl:w-[397px] bg-white p-5 2xl:p-10">
-                        <div class="w-[40px] lg:w-[60px] 2xl:w-[80px] h-[40px] lg:h-[60px] 2xl:h-[80px] rounded-full text-white lg:text-[1.5rem] 2xl:text-[1.875rem] flex items-center justify-center">
+                    <div class="relative text-center rounded-md shadow-lg flex flex-col items-center justify-center 2xl:w-[397px] bg-white p-5 2xl:p-10">
+                        <img class="" src="@/assets/salaryLoan.jpg" alt="">
+                        <!-- <div class="w-[40px] lg:w-[60px] 2xl:w-[80px] h-[40px] lg:h-[60px] 2xl:h-[80px] rounded-full text-white lg:text-[1.5rem] 2xl:text-[1.875rem] flex items-center justify-center">
                             <img src="@/assets/moneybag.png" alt="">
-                        </div>
+                        </div> -->
 
                         <div class="lg:text-[1.5rem] 2xl:text-[1.875rem] text-highlight my-2.5 lg:my-5 2xl:my-6 font-medium">Salary Loan</div>
 
@@ -39,9 +35,7 @@ export default {
 
                     <!-- CARD -->
                     <div class="text-center rounded-md shadow-lg flex flex-col items-center justify-center 2xl:w-[397px] bg-white p-5 2xl:p-10">
-                        <div class="w-[40px] lg:w-[60px] 2xl:w-[80px] h-[40px] lg:h-[60px] 2xl:h-[80px] rounded-full text-white lg:text-[1.5rem] 2xl:text-[1.875rem] flex items-center justify-center">
-                            <img src="@/assets/moneybag.png" alt="">
-                        </div>
+                        <img class="" src="@/assets/businessLoan.jpg" alt="">
 
                         <div class="lg:text-[1.5rem] 2xl:text-[1.875rem] text-highlight my-2.5 lg:my-5 2xl:my-6 font-medium">Business Loan</div>
 
@@ -83,9 +77,7 @@ export default {
 
                     <!-- CARD -->
                     <div class="text-center rounded-md shadow-lg flex flex-col items-center justify-center 2xl:w-[397px] bg-white p-5 2xl:p-10">
-                        <div class="w-[40px] lg:w-[60px] 2xl:w-[80px] h-[40px] lg:h-[60px] 2xl:h-[80px] rounded-full text-white lg:text-[1.5rem] 2xl:text-[1.875rem] flex items-center justify-center">
-                            <img src="@/assets/moneybag.png" alt="">
-                        </div>
+                        <img class="" src="@/assets/agricLoan.jpg" alt="">
 
                         <div class="lg:text-[1.5rem] 2xl:text-[1.875rem] text-highlight my-2.5 lg:my-5 2xl:my-6 font-medium">Agricultural Loan</div>
 
@@ -106,9 +98,7 @@ export default {
                 <div class="grid lg:grid-cols-2 gap-5 mt-5">
                     <!-- CARD -->
                     <div class="text-center rounded-md shadow-lg flex flex-col items-center justify-center 2xl:w-[397px] bg-white p-5 2xl:p-10">
-                        <div class="w-[40px] lg:w-[60px] 2xl:w-[80px] h-[40px] lg:h-[60px] 2xl:h-[80px] rounded-full text-white lg:text-[1.5rem] 2xl:text-[1.875rem] flex items-center justify-center">
-                            <img src="@/assets/moneybag.png" alt="">
-                        </div>
+                        <img class="" src="@/assets/dailyLoan.jpeg" alt="">
 
                         <div class="lg:text-[1.5rem] 2xl:text-[1.875rem] text-highlight my-2.5 lg:my-5 2xl:my-6 font-medium">Daily Interest Loan</div>
 
@@ -127,9 +117,7 @@ export default {
 
                     <!-- CARD -->
                     <div class="text-center rounded-md shadow-lg flex flex-col items-center justify-center 2xl:w-[397px] bg-white p-5 2xl:p-10">
-                        <div class="w-[40px] lg:w-[60px] 2xl:w-[80px] h-[40px] lg:h-[60px] 2xl:h-[80px] rounded-full text-white lg:text-[1.5rem] 2xl:text-[1.875rem] flex items-center justify-center">
-                            <img src="@/assets/moneybag.png" alt="">
-                        </div>
+                        <img class="" src="@/assets/schoolFeesLoan.jpg" alt="">
 
                         <div class="lg:text-[1.5rem] 2xl:text-[1.875rem] text-highlight my-2.5 lg:my-5 2xl:my-6 font-medium">School Fees Loan</div>
 
